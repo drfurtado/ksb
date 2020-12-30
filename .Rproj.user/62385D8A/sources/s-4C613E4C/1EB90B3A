@@ -3,7 +3,7 @@
     "path": "~/Dropbox/rprojects/ksb/_bookdown.yml",
     "project_path": "_bookdown.yml",
     "type": "yaml",
-    "hash": "1337050637",
+    "hash": "1668158173",
     "contents": "",
     "dirty": false,
     "created": 1609314886954.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "1,18",
+        "cursorPosition": "6,44",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1609314907,
+    "lastKnownWriteTime": 1609315783,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1609314907084,
+    "last_content_update": 1609315783169,
     "read_only": false,
     "read_only_alternatives": []
 }
