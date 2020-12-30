@@ -2,3 +2,15 @@ fig:nice-fig
 tab:nice-tab
 prerequisites
 intro
+methods
+softare
+symbols
+data-sets
+phrasing-results
+software
+reference-tables
+spss
+r-software
+spss-spss
+r-software-rstats
+rstats

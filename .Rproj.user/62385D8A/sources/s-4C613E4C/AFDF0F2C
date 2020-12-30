@@ -1,19 +1,17 @@
 {
-    "id": "13DECADC",
-    "path": "~/Dropbox/rprojects/ksb/01-intro.Rmd",
-    "project_path": "01-intro.Rmd",
+    "id": "AFDF0F2C",
+    "path": "~/Dropbox/rprojects/ksb/03-method.Rmd",
+    "project_path": "03-method.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "2947440194",
     "contents": "",
     "dirty": false,
-    "created": 1609315693706.0,
+    "created": 1609316805377.0,
     "source_on_save": false,
     "relative_order": 2,
     "properties": {
         "source_window_id": "",
-        "Source": "Source",
-        "cursorPosition": "3,0",
-        "scrollLine": "0"
+        "Source": "Source"
     },
     "folds": "",
     "lastKnownWriteTime": 1609314875,
