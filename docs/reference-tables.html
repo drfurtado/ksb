@@ -4,27 +4,27 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>E Reference Tables | A Minimal Book Example</title>
-  <meta name="description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
-  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+  <title>E Reference Tables | Teaching Stats with JASP</title>
+  <meta name="description" content="A Guide to Data Analysis &amp; Interpretation" />
+  <meta name="generator" content="bookdown 0.21.6 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="E Reference Tables | A Minimal Book Example" />
+  <meta property="og:title" content="E Reference Tables | Teaching Stats with JASP" />
   <meta property="og:type" content="book" />
   
   
-  <meta property="og:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  <meta property="og:description" content="A Guide to Data Analysis &amp; Interpretation" />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="E Reference Tables | A Minimal Book Example" />
+  <meta name="twitter:title" content="E Reference Tables | Teaching Stats with JASP" />
   
-  <meta name="twitter:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  <meta name="twitter:description" content="A Guide to Data Analysis &amp; Interpretation" />
   
 
-<meta name="author" content="Yihui Xie" />
+<meta name="author" content="Ovande Furtado, Jr." />
 
 
-<meta name="date" content="2020-12-30" />
+<meta name="date" content="2021-01-31" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,8 +32,8 @@
   
   
 <link rel="prev" href="phrasing-results.html"/>
-<link rel="next" href="references.html"/>
-<script src="libs/header-attrs-2.6/header-attrs.js"></script>
+<link rel="next" href="slides.html"/>
+<script src="libs/header-attrs-2.6.4/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -51,13 +51,15 @@
 
 
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
 
 <style type="text/css">
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
@@ -118,6 +120,29 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
@@ -131,7 +156,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">A Minimal Book Example</a></li>
+<li><a href="./">Teaching Statistics with JASP</a></li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Prerequisites</a></li>
@@ -147,6 +172,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="C" data-path="data-sets.html"><a href="data-sets.html"><i class="fa fa-check"></i><b>C</b> Data sets</a></li>
 <li class="chapter" data-level="D" data-path="phrasing-results.html"><a href="phrasing-results.html"><i class="fa fa-check"></i><b>D</b> Phrasing Results</a></li>
 <li class="chapter" data-level="E" data-path="reference-tables.html"><a href="reference-tables.html"><i class="fa fa-check"></i><b>E</b> Reference Tables</a></li>
+<li class="chapter" data-level="F" data-path="slides.html"><a href="slides.html"><i class="fa fa-check"></i><b>F</b> Slides</a>
+<ul>
+<li class="chapter" data-level="F.1" data-path="slides.html"><a href="slides.html#chapter-01"><i class="fa fa-check"></i><b>F.1</b> Chapter 01</a></li>
+</ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -160,7 +189,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">A Minimal Book Example</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Teaching Stats with JASP</a>
           </h1>
         </div>
 
@@ -170,7 +199,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
             <section class="normal" id="section-">
 <div id="reference-tables" class="section level1" number="8">
 <h1><span class="header-section-number">E</span> Reference Tables</h1>
-
 </div>
             </section>
 
@@ -178,7 +206,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
         </div>
       </div>
 <a href="phrasing-results.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="references.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="slides.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
