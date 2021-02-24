@@ -1,0 +1,55 @@
+---
+title: "TSJ | JASP Assignment 1"
+author: "Dr. Furtado"
+header-includes: \linespread{1.05}
+output:
+  word_document: default
+  pdf_document:
+    keep_tex: yes
+    fig_caption: yes
+    latex_engine: pdflatex
+    template: ../latex-assignment.tex
+  html_document:
+    df_print: paged
+geometry: margin=1in
+affiliation: Department of Kinesiology, Cal State Northridge
+email: ovandef@csun.edu
+fontfamily: mathpazo
+fontsize: 11pt
+---
+
+## Learning objectives
+
+1. Differentiate between independent and dependent variables
+2. Assign the correct data level to variables (nominal, ordinal, and scale)
+3. Create and compute new variables in JASP
+4. Select and unselect cases in JASP
+5. Create and interpret histograms, boxplots, and Q-Q Plots
+
+## Dataset: download link will be available on Canvas
+
+1.  Open the data set in JASP (Open > Computer)
+2.  Note the data set has 3 variables
+3.  Set the variables to their appropriate scale (e.g., Nominal, Ordinal, Scale)
+
+Questions ^[Each question is worth 2 points]
+
+## Learning Objectives
+
+1...
+
+2...
+
+## Data set
+
+We will use a modified version of the NFL Combine data set (ref needed). The data set can be downloaded from this link: https://osf.io/tbgfh/ 
+
+Open the data set in JASP and proceed to answer the following questions:
+
+## Questions
+
+**Question 1**
+
+For the variables `Heightin` and `Weightlbs`, create a table containing the following: `mean`, `median`, `standard deviation`, `min`, `max`, and `sample size` (n). This table will be called **Descriptive Statistics**.
+
+In addition, ensure to filter the data so that only `Wide Receivers` (WR) and `Safety` (S) are include in the table.

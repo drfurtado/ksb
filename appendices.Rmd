@@ -1,33 +1,32 @@
-# (APPENDIX) Appendix {-} 
+# (APPENDIX) Appendices {.unnumbered}
 
 # Software
 
-Two different statistical packages will be used to demonstrate the statistical analyses covered in this book. These are SPSS \@ref(spss) and _R_ Software \@ref(rstats). Below, you will learn how to download and install both applications.  
+To study and learn the content presented in this book, you will be required to download and install a few computer standalone applications. Below, you will learn how to download and install these applications in your machine.
 
-## SPSS {#spss}
+## JASP {#jasp}
 
-SPSS is owned by IBM...
+The open-source statistical package JASP [@JASP2020] will be used to demonstrate the statistical analyses covered in this book.
 
-## _R_ Software {#rstats}
+### Prerequisites
 
-R is...
+- Windows, MacOS, or Linux
+- Basic knowledge of spreadsheet files
 
-some text
+### Download and installation
 
-# Symbols
+Please, follow the instructions found in (ref) to install JASP in your device.
 
-text here
+# Assignment Examples
 
-# Data sets
+In this section, I provide several examples of assignments instructors can use.
 
-Some text
+## Descriptive Statistics
 
-# Phrasing Results
+* Example 1: [HTML](assignments/descriptive-01.html) | [Word](assignments/descriptive-01.docx) | [PDF](assignments/descriptive-01.pdf)
 
-# Reference Tables
 
-# Slides
 
-## Chapter 01
 
-- [HTML](slides/test.rev.html)
+
+
