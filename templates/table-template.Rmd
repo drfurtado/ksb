@@ -1,0 +1,65 @@
+---
+itle: "test"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+     keep_tex: true
+     extra_dependencies: ["booktabs"]
+  html_document:
+    df_print: paged
+---
+
+```{r warning=FALSE, echo=FALSE}
+library(texPreview)
+tex_opts$set(resizebox = FALSE)
+```
+
+```{r echo=FALSE}
+tex_return <- switch(knitr::opts_knit$get("rmarkdown.pandoc.to"),
+  'html' = {
+    tex_opts$set(opts.html = list(width = '75%', height = '75%'))
+    'html'
+    },
+  'latex' = 'input'
+)
+```
+
+
+```{texpreview, echo = FALSE,texpreview.return = tex_return, texpreview.path = 'images',texpreview.stem = 'example'}
+
+\begin{table}[h]
+	\centering
+	\caption{Independent Samples T-Test}
+	\label{tab:independentSamplesT-Test}
+	{
+		\begin{tabular}{lrrrr}
+			\toprule
+			  & t & df & p & Cohen's d  \\
+			\cmidrule[0.4pt]{1-5}
+			engagement & 2.365 & 38 & 0.023 & 0.748  \\
+			\bottomrule
+			\addlinespace[1ex]
+			\multicolumn{5}{p{0.5\linewidth}}{\textit{Note.} Student's t-test.} \\
+		\end{tabular}
+	}
+\end{table}
+```
+
+```{texpreview, echo = FALSE,texpreview.return = tex_return, texpreview.path = 'images',texpreview.stem = 'example2'}
+\begin{table}[h]
+	\centering
+	\caption{Mann-Whitney U test}
+	\label{tab:independentSamplesT-Test2}
+	{
+		\begin{tabular}{lrrr}
+			\toprule
+			  & W & df & p  \\
+			\cmidrule[0.4pt]{1-4}
+			gpa & 5482.500 &  & 0.598  \\
+			\bottomrule
+		  \addlinespace[1ex]
+			\multicolumn{4}{p{0.5\linewidth}}{\textit{Note.} Mann-Whitney U test.} \\
+		\end{tabular}
+	}
+\end{table}
+```

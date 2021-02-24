@@ -1,0 +1,27 @@
+---
+title: "table"
+author: "Author"
+date: "2/13/2021"
+output:
+  word_document: default
+  pdf_document: default
+header-includes: \usepackage{booktabs}
+---
+
+\begin{table}[h]
+	\centering
+	\caption{Independent Samples T-Test}
+	\label{tab:independentSamplesT-Test}
+	{
+		\begin{tabular}{lrrr}
+			\toprule
+			  & t & df & p  \\
+			\cmidrule[0.4pt]{1-4}
+			Height & -0.997 & 11 & 0.340  \\
+			\bottomrule
+			% \addlinespace[1ex]
+			% \multicolumn{4}{p{0.5\linewidth}}{\textit{Note.} Student's t-test.} \\
+			% \multicolumn{4}{p{0.5\linewidth}}{$^{0}$ Levene's test is significant (p $<$ .05), suggesting a violation of the equal variance assumption} \\
+		\end{tabular}
+	}
+\end{table}
