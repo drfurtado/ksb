@@ -1,4 +1,4 @@
-# (APPENDIX) Appendices {.unnumbered}
+# (APPENDIX) Appendix {.unnumbered}
 
 # Software
 
@@ -19,12 +19,11 @@ Please, follow the instructions found in (ref) to install JASP in your device.
 
 # Assignment Examples
 
-In this section, I provide several examples of assignments instructors can use.
+In this section, I provide several examples of assignments instructors can use when teaching introductory statistics courses to undergraduate or graduate students.
 
 ## Descriptive Statistics
 
-* Example 1: [HTML](assignments/descriptive-01.html) | [Word](assignments/descriptive-01.docx) | [PDF](assignments/descriptive-01.pdf)
-
+* Example 1: [HTML](assignments/homework-example-01.html) | [Word](assignments/homework-example-01.docx) 
 
 
 
