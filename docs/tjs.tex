@@ -36,51 +36,11 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-  pdftitle={Teaching Stats with JASP},
-  pdfauthor={Ovande Furtado, Jr.},
+  pdftitle={Teaching Stats with JASP: A Guide to Data Analysis \& Interpretation},
+  pdfauthor={Ovande Furtado, Jr., Ph.D.},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
-\usepackage{color}
-\usepackage{fancyvrb}
-\newcommand{\VerbBar}{|}
-\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
-\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
-% Add ',fontsize=\small' for more characters per line
-\usepackage{framed}
-\definecolor{shadecolor}{RGB}{248,248,248}
-\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
-\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
-\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
-\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\BuiltInTok}[1]{#1}
-\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
-\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
-\newcommand{\ExtensionTok}[1]{#1}
-\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\ImportTok}[1]{#1}
-\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\NormalTok}[1]{#1}
-\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
-\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\RegionMarkerTok}[1]{#1}
-\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -109,7 +69,6 @@
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{5}
 \usepackage{booktabs}
-\usepackage{longtable}
 \usepackage{array}
 \usepackage{multirow}
 \usepackage{wrapfig}
@@ -121,7 +80,10 @@
 \usepackage{threeparttablex}
 \usepackage[normalem]{ulem}
 \usepackage{makecell}
-\usepackage{xcolor}
+\usepackage{helvet}
+\usepackage{listings}
+\usepackage{setspace}
+\usepackage{caption}
 
 \ifxetex
   \usepackage{letltxmacro}
@@ -142,9 +104,9 @@
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
 
-\title{Teaching Stats with JASP}
-\author{Ovande Furtado, Jr.}
-\date{2021-02-15}
+\title{Teaching Stats with JASP: A Guide to Data Analysis \& Interpretation}
+\author{Ovande Furtado, Jr., Ph.D.}
+\date{2021-02-26}
 
 \begin{document}
 \maketitle
@@ -153,147 +115,65 @@
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
-\hypertarget{prerequisites}{%
-\chapter{Prerequisites}\label{prerequisites}}
+\hypertarget{preface}{%
+\chapter*{Preface}\label{preface}}
+\addcontentsline{toc}{chapter}{Preface}
 
-This is a \emph{sample} book written in \textbf{Markdown}. You can use anything that Pandoc's Markdown supports, e.g., a math equation \(a^2 + b^2 = c^2\).
+This is a companion book\footnote{The online version of this book is free to read and licensed under \href{http://creativecommons.org/licenses/by-nc/4.0/}{Creative Commons Attribution-NonCommercial 4.0 International License}.} used in a course\footnote{KIN610 - Quantitative Analysis of Research in Kinesiology} I teach at \href{https://academics.csun.edu/faculty/ovande.furtado}{Cal State Northridge}. This book is comprised of step-by-step tutorials showing how to perform analysis with \textbf{JASP}.
 
-The \textbf{bookdown} package can be installed from CRAN or Github:
+Future versions of this book will contain topics related to \textbf{hypothesis testing}, \textbf{descriptive and inferential statistics}, etc. The goal is for this book to evolve into a textbook that may be used in Introductory Statistics courses taught at the undergraduate or graduate levels.
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\FunctionTok{install.packages}\NormalTok{(}\StringTok{"bookdown"}\NormalTok{)}
-\CommentTok{\# or the development version}
-\CommentTok{\# devtools::install\_github("rstudio/bookdown")}
-\end{Highlighting}
-\end{Shaded}
+\textbf{Updates}
 
-Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading \texttt{\#}.
+I announce major updates made to this book on Twitter. For updates, follow me at ofurtado\footnote{\url{http://twitter.com/ofurtado}}. Alternatively, you can subscribe to my blog \href{http://drfurtado.us}{www.drfurtado.us} for updates.
 
-To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): \url{https://yihui.org/tinytex/}.
+\textbf{How to use this book}
 
-\hypertarget{intro}{%
-\chapter{Introduction}\label{intro}}
-
-You can label chapter and section titles using \texttt{\{\#label\}} after them, e.g., we can reference Chapter \ref{intro}. If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \ref{methods}.
-
-Figures and tables with captions will be placed in \texttt{figure} and \texttt{table} environments, respectively.
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\FunctionTok{par}\NormalTok{(}\AttributeTok{mar =} \FunctionTok{c}\NormalTok{(}\DecValTok{4}\NormalTok{, }\DecValTok{4}\NormalTok{, .}\DecValTok{1}\NormalTok{, .}\DecValTok{1}\NormalTok{))}
-\FunctionTok{plot}\NormalTok{(pressure, }\AttributeTok{type =} \StringTok{\textquotesingle{}b\textquotesingle{}}\NormalTok{, }\AttributeTok{pch =} \DecValTok{19}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{figure}
-
-{\centering \includegraphics[width=0.8\linewidth]{tjs_files/figure-latex/nice-fig-1} 
-
-}
-
-\caption{Here is a nice figure!}\label{fig:nice-fig}
-\end{figure}
-
-Reference a figure by its code chunk label with the \texttt{fig:} prefix, e.g., see Figure \ref{fig:nice-fig}. Similarly, you can reference tables generated from \texttt{knitr::kable()}, e.g., see Table \ref{tab:nice-tab}.
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{knitr}\SpecialCharTok{::}\FunctionTok{kable}\NormalTok{(}
-  \FunctionTok{head}\NormalTok{(iris, }\DecValTok{20}\NormalTok{), }\AttributeTok{caption =} \StringTok{\textquotesingle{}Here is a nice table!\textquotesingle{}}\NormalTok{,}
-  \AttributeTok{booktabs =} \ConstantTok{TRUE}
-\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{table}
-
-\caption{\label{tab:nice-tab}Here is a nice table!}
-\centering
-\begin{tabular}[t]{rrrrl}
-\toprule
-Sepal.Length & Sepal.Width & Petal.Length & Petal.Width & Species\\
-\midrule
-5.1 & 3.5 & 1.4 & 0.2 & setosa\\
-4.9 & 3.0 & 1.4 & 0.2 & setosa\\
-4.7 & 3.2 & 1.3 & 0.2 & setosa\\
-4.6 & 3.1 & 1.5 & 0.2 & setosa\\
-5.0 & 3.6 & 1.4 & 0.2 & setosa\\
-\addlinespace
-5.4 & 3.9 & 1.7 & 0.4 & setosa\\
-4.6 & 3.4 & 1.4 & 0.3 & setosa\\
-5.0 & 3.4 & 1.5 & 0.2 & setosa\\
-4.4 & 2.9 & 1.4 & 0.2 & setosa\\
-4.9 & 3.1 & 1.5 & 0.1 & setosa\\
-\addlinespace
-5.4 & 3.7 & 1.5 & 0.2 & setosa\\
-4.8 & 3.4 & 1.6 & 0.2 & setosa\\
-4.8 & 3.0 & 1.4 & 0.1 & setosa\\
-4.3 & 3.0 & 1.1 & 0.1 & setosa\\
-5.8 & 4.0 & 1.2 & 0.2 & setosa\\
-\addlinespace
-5.7 & 4.4 & 1.5 & 0.4 & setosa\\
-5.4 & 3.9 & 1.3 & 0.4 & setosa\\
-5.1 & 3.5 & 1.4 & 0.3 & setosa\\
-5.7 & 3.8 & 1.7 & 0.3 & setosa\\
-5.1 & 3.8 & 1.5 & 0.3 & setosa\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-You can write citations, too. For example, we are using the \textbf{bookdown} package \citep{R-bookdown} in this sample book, which was built on top of R Markdown and \textbf{knitr} \citep{xie2015}.
-
-\hypertarget{correlation}{%
-\chapter{Correlation}\label{correlation}}
-
-rd
-
-\hypertarget{section}{%
-\section{---}\label{section}}
-
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
-
-\hypertarget{methods}{%
-\chapter{Methods}\label{methods}}
-
-\texttt{Something\ here}
-
-\begin{table}[h]
-    \centering
-    \caption{Independent Samples T-Test}
-    \label{tab:independentSamplesT-Test}
-    {
-        \begin{tabular}{lrrrrrr}
-            \toprule
-            \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{2}{c}{95\% CI for Cohen's d} \\
-            \cline{6-7}
-              & t & df & p & Cohen's d & Lower & Upper  \\
-            \cmidrule[0.4pt]{1-7}
-            engagement & 2.365 & 38 & 0.023 & 0.748 & 0.101 & 1.385  \\
-            \bottomrule
-            % \addlinespace[1ex]
-            % \multicolumn{7}{p{0.5\linewidth}}{\textit{Note.} Student's t-test.} \\
-        \end{tabular}
-    }
-\end{table}
+To take full advantage of this book, I encourage you to download and install JASP. so that you can follow along. You will need to take some time to practice the tutorials using JASP. Besides, make sure to complete the challenge exercises you will encounter while studying the tutorials found throughout this book.
 
 \hypertarget{appendix-appendices}{%
 \appendix}
 
 
-Placeholder
+\hypertarget{software}{%
+\chapter{Software}\label{software}}
+
+To study and learn the content presented in this book, you will be required to download and install a few computer standalone applications. Below, you will learn how to download and install these applications in your machine.
 
 \hypertarget{jasp}{%
 \section{JASP}\label{jasp}}
 
-\hypertarget{prerequisites-1}{%
-\subsection{Prerequisites}\label{prerequisites-1}}
+The open-source statistical package JASP \citep{JASP2020} will be used to demonstrate the statistical analyses covered in this book.
+
+\hypertarget{prerequisites}{%
+\subsection{Prerequisites}\label{prerequisites}}
+
+\begin{itemize}
+\tightlist
+\item
+  Windows, MacOS, or Linux
+\item
+  Basic knowledge of spreadsheet files
+\end{itemize}
 
 \hypertarget{download-and-installation}{%
 \subsection{Download and installation}\label{download-and-installation}}
 
-\hypertarget{chapter-01}{%
-\section{Chapter 01}\label{chapter-01}}
+Please, follow the instructions found in (ref) to install JASP in your device.
+
+\hypertarget{assignment-examples}{%
+\chapter{Assignment Examples}\label{assignment-examples}}
+
+In this section, I provide several examples of assignments instructors can use when teaching introductory statistics courses to undergraduate or graduate students.
+
+\hypertarget{descriptive-statistics}{%
+\section{Descriptive Statistics}\label{descriptive-statistics}}
+
+\begin{itemize}
+\tightlist
+\item
+  Example 1: \href{assignments/homework-example-01.html}{HTML} \textbar{} \href{assignments/homework-example-01.docx}{Word}
+\end{itemize}
 
   \bibliography{book.bib,packages.bib}
 
