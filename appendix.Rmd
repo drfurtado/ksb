@@ -11,11 +11,10 @@ The open-source statistical package JASP [@JASP2020] will be used to demonstrate
 ### Prerequisites
 
 - Windows, MacOS, or Linux
-- Basic knowledge of spreadsheet files
 
 ### Download and installation
 
-Please, follow the instructions found in (ref) to install JASP in your device.
+Please, follow the instructions found in [@goss-sampsonStatisticalAnalysisJASP2020] to install JASP in your device.
 
 # Assignment Examples
 
