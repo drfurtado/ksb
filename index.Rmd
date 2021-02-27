@@ -18,7 +18,7 @@ site: bookdown::bookdown_site
 
 # Preface {.unnumbered}
 
-This is a companion book[^index-1] used in a course[^index-2] I teach at [Cal State Northridge](https://academics.csun.edu/faculty/ovande.furtado){target="_blank"}. This book is comprised of step-by-step tutorials showing how to perform analysis with **JASP**.
+This is a companion book[^index-1] used in a course[^index-2] I teach at [Cal State Northridge](https://academics.csun.edu/faculty/ovande.furtado){target="_blank"}. This book is comprised of step-by-step tutorials showing how to perform statistical analysis with [JASP](#jasp).
 
 [^index-1]: The online version of this book is free to read and licensed under [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/){target="_blank"}.
 
