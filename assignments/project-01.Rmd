@@ -3,6 +3,7 @@ title: "KIN 610 | Final Project - Instructions"
 author: "Dr. Furtado"
 header-includes: \linespread{1.05}
 output:
+  word_document: default
   html_document:
     df_print: paged
   pdf_document:
@@ -10,7 +11,6 @@ output:
     fig_caption: yes
     latex_engine: pdflatex
     template: ../latex-assignment.tex
-  word_document: default
 geometry: margin=1in
 affiliation: Department of Kinesiology, Cal State Northridge
 email: ovandef@csun.edu

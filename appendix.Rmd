@@ -22,7 +22,11 @@ In this section, I provide several examples of assignments instructors can use w
 
 ## Descriptive Statistics
 
-* Example 1: [HTML](assignments/homework-example-01.html) | [Word](assignments/homework-example-01.docx) 
+* Example 1: [HTML](assignments/project-01.html) | [Word](assignments/project-01-temp.docx) 
+
+## Projects
+
+* Example 1: [HTML](assignments/project-01.html) | [Word](assignments/project-01-temp.docx)
 
 # Symbols and Equations {#symbols-equations}
 
@@ -91,8 +95,8 @@ where:
 **One-Sample t-test (**$\sigma$ is Unknown)
 
 \begin{equation}
-\label{testing a mean sigma unknown}(\#eq:t-test-one) t = 
-\frac{\bar{x}-\mu}{\frac{s}{\sqrt{n}}}
+\label{testing a mean sigma unknown}(\#eq:t-test-one) 
+t = \frac{\bar{x}-\mu}{\frac{s}{\sqrt{n}}}
 (#eq:onet)
 \end{equation}
 
@@ -133,3 +137,6 @@ where:
 
 - $s$ is the sample standard deviation.
 - $\bar{x}$ is the sample mean.
+
+----
+

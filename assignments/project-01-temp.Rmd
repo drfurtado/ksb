@@ -20,6 +20,10 @@ fontsize: 11pt
 
 Your name: 
 
+**Instructions**
+
+Use this template when ready answer the project questions found in the [project's instructions file](project-01.html).
+
 **Research Question**
 
 Copy and paste your research question here...

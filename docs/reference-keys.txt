@@ -1,0 +1,15 @@
+eq:sem
+eq:ztest
+eq:t-test-one
+eq:onet
+eq:binom
+software
+jasp
+prerequisites
+jasp-install
+assignment-examples
+descriptive-statistics
+symbols-equations
+symbols
+equations
+projects
