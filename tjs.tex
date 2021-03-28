@@ -1,0 +1,321 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Teaching Stats with JASP: A Guide to Data Analysis \& Interpretation},
+  pdfauthor={Ovande Furtado, Jr., Ph.D.},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{helvet}
+\usepackage{listings}
+\usepackage{setspace}
+\usepackage{caption}
+
+\ifxetex
+  \usepackage{letltxmacro}
+  \setlength{\XeTeXLinkMargin}{1pt}
+  \LetLtxMacro\SavedIncludeGraphics\includegraphics
+  \def\includegraphics#1#{% #1 catches optional stuff (star/opt. arg.)
+    \IncludeGraphicsAux{#1}%
+  }%
+  \newcommand*{\IncludeGraphicsAux}[2]{%
+    \XeTeXLinkBox{%
+      \SavedIncludeGraphics#1{#2}%
+    }%
+  }%
+\fi
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage[]{natbib}
+\bibliographystyle{apalike}
+
+\title{Teaching Stats with JASP: A Guide to Data Analysis \& Interpretation}
+\author{Ovande Furtado, Jr., Ph.D.}
+\date{2021-03-02}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{preface}{%
+\chapter*{Preface}\label{preface}}
+\addcontentsline{toc}{chapter}{Preface}
+
+This is a companion book\footnote{The online version of this book is free to read and licensed under \href{http://creativecommons.org/licenses/by-nc/4.0/}{Creative Commons Attribution-NonCommercial 4.0 International License}.} used in a course\footnote{KIN610 - Quantitative Analysis of Research in Kinesiology} I teach at \href{https://academics.csun.edu/faculty/ovande.furtado}{Cal State Northridge}. This book is comprised of step-by-step tutorials showing how to perform statistical analysis with \protect\hyperlink{jasp}{JASP}.
+
+Future versions of this book will contain topics related to \textbf{hypothesis testing}, \textbf{descriptive and inferential statistics}, etc. The goal is for this book to evolve into a textbook that may be used in Introductory Statistics courses taught at the undergraduate or graduate levels.
+
+\textbf{Updates}
+
+I announce major updates made to this book on Twitter. For updates, follow me at ofurtado\footnote{\url{http://twitter.com/ofurtado}}. Alternatively, you can subscribe to my blog \href{http://drfurtado.us}{www.drfurtado.us} for updates.
+
+\textbf{How to use this book}
+
+To take full advantage of this book, I encourage you to download and install JASP (Section \ref{jasp-install}). so that you can follow along. You will need to take some time to practice the tutorials using JASP. Besides, make sure to complete the challenge exercises you will encounter while studying the tutorials found throughout this book.
+
+\hypertarget{appendix-appendix}{%
+\appendix}
+
+
+\hypertarget{software}{%
+\chapter{Software}\label{software}}
+
+To study and learn the content presented in this book, you will be required to download and install a few computer standalone applications. Below, you will learn how to download and install these applications in your machine.
+
+\hypertarget{jasp}{%
+\section{JASP}\label{jasp}}
+
+The open-source statistical package JASP \citep{JASP2020} will be used to demonstrate the statistical analyses covered in this book.
+
+\hypertarget{prerequisites}{%
+\subsection{Prerequisites}\label{prerequisites}}
+
+\begin{itemize}
+\tightlist
+\item
+  Windows, MacOS, or Linux
+\end{itemize}
+
+\hypertarget{jasp-install}{%
+\subsection{Download and installation}\label{jasp-install}}
+
+Please, follow the instructions found in \citep{goss-sampsonStatisticalAnalysisJASP2020} to install JASP in your device.
+
+\hypertarget{assignment-examples}{%
+\chapter{Assignment Examples}\label{assignment-examples}}
+
+In this section, I provide several examples of assignments instructors can use when teaching introductory statistics courses to undergraduate or graduate students.
+
+\hypertarget{descriptive-statistics}{%
+\section{Descriptive Statistics}\label{descriptive-statistics}}
+
+\begin{itemize}
+\tightlist
+\item
+  Example 1: \href{assignments/homework-example-01.html}{HTML} \textbar{} \href{assignments/homework-example-01.docx}{Word}
+\end{itemize}
+
+\hypertarget{symbols-equations}{%
+\chapter{Symbols and Equations}\label{symbols-equations}}
+
+\hypertarget{symbols}{%
+\section{Symbols}\label{symbols}}
+
+Below are some of the symbols I will use throughout this book to refer to various statistical terms.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.17}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.44}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.39}}@{}}
+\toprule
+Symbol & Meaning & Reference to a value in a \\ \addlinespace
+\midrule
+\endhead
+n & Sample size & Sample \\ \addlinespace
+\(\bar{x}\) & Sample mean & Sample \\ \addlinespace
+\(\mu\) & Population mean & Population \\ \addlinespace
+s & Sample standard deviation & Sample \\ \addlinespace
+\(\sigma\) & Population standard deviation & Population \\ \addlinespace
+\emph{r} & Pearson correlation & Sample \\ \addlinespace
+\(\rho\) & Pearson correlation & Population \\ \addlinespace
+x, z & Observed data value & Population \\ \addlinespace
+\bottomrule
+\end{longtable}
+
+\hypertarget{equations}{%
+\section{Equations}\label{equations}}
+
+Although, in general, you will not be required to perform calculations by hand while following the tutorials found in this book, it is worth getting familiar with some key equations.
+
+\textbf{Standard error of the mean (SEM)}
+
+\begin{equation}
+\sigma_{\bar{x}}=\frac{\sigma}{\sqrt{n}}
+(#eq:sem)
+\end{equation}
+
+where:
+
+\begin{itemize}
+\tightlist
+\item
+  \(\sigma_{\bar{x}}\) refers standard deviation of the sample means indicated by \(\bar{x}\).
+\item
+  \(n\) refers to the sample size.
+\item
+  \(\sigma\) refers to the population standard deviation.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Z-test (}\(\sigma\) is Known)
+
+A test used to compare a sample mean with a population value when the standard deviation of the population (\(\sigma\)) is known and the sample size (n) is larger than 30.
+
+\begin{equation}
+\label{standard normal value}
+z = \frac{x - \mu}{\sigma}
+(#eq:ztest)
+\end{equation}
+
+where:
+
+\begin{itemize}
+\tightlist
+\item
+  \(\bar{x}\) refers to the sample mean.
+\item
+  \(\mu\) refers to the population mean.
+\item
+  \(\sigma\) refers to the population standard deviation.
+\item
+  \(n\) refers to the sample size.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{One-Sample t-test (}\(\sigma\) is Unknown)
+
+\begin{equation}
+\label{testing a mean sigma unknown}\label{eq:t-test-one} t = 
+\frac{\bar{x}-\mu}{\frac{s}{\sqrt{n}}}
+(#eq:onet)
+\end{equation}
+
+with \(n-1\) degrees of freedom where:
+
+\begin{itemize}
+\tightlist
+\item
+  \(\bar{x}\) is the sample mean.
+\item
+  \(\mu\) is the hypothesized population mean.
+\item
+  \(s\) is the sample standard deviation.
+\item
+  \(n\) is the number of observations in the sample.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Standard Deviation of Differences} - Two-Sample Test
+
+\begin{equation}
+s_{d} = \sqrt{\frac{\sum(d - \bar{d})^2}{n - 1}}
+(#eq:??)
+\end{equation}
+
+where:
+
+\begin{itemize}
+\tightlist
+\item
+  \(\bar{d}\) is the mean of the difference between the paired or related observations.
+\item
+  \(s_{d}\) is the standard deviation of the differences between the paired or related observations.
+\item
+  \(n\) is the number of paired observations.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Coefficient of Variation}
+
+\begin{equation}
+\text{CV} = \frac{s}{\bar{x}}(100)
+  (#eq:binom)
+\end{equation}
+
+Note: multiplying by 100 converts the decimal to a percent
+
+where:
+
+\begin{itemize}
+\tightlist
+\item
+  \(s\) is the sample standard deviation.
+\item
+  \(\bar{x}\) is the sample mean.
+\end{itemize}
+
+  \bibliography{book.bib,packages.bib}
+
+\end{document}

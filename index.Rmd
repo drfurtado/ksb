@@ -10,7 +10,7 @@ bibliography:
 - book.bib
 - packages.bib
 biblio-style: apalike
-csl: apa.csl
+csl: apa-numeric-superscript-brackets.csl
 link-citations: yes
 description: A Guide to Data Analysis & Interpretation
 site: bookdown::bookdown_site
@@ -34,4 +34,4 @@ I announce major updates made to this book on Twitter. For updates, follow me at
 
 **How to use this book**
 
-To take full advantage of this book, I encourage you to download and install JASP. so that you can follow along. You will need to take some time to practice the tutorials using JASP. Besides, make sure to complete the challenge exercises you will encounter while studying the tutorials found throughout this book.
+To take full advantage of this book, I encourage you to download and install JASP (Section \@ref(jasp-install)). so that you can follow along. You will need to take some time to practice the tutorials using JASP. Besides, make sure to complete the challenge exercises you will encounter while studying the tutorials found throughout this book.

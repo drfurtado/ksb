@@ -1,6 +1,0 @@
-software
-jasp
-prerequisites
-download-and-installation
-assignment-examples
-descriptive-statistics

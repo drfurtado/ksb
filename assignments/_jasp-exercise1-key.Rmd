@@ -23,7 +23,7 @@ fontsize: 11pt
 1. Differentiate between independent and dependent variables
 2. Assign the correct data level to variables (nominal, ordinal, and scale)
 3. Create and compute new variables in JASP
-4. Select and unselect cases in JASP
+4. Select and deselect cases in JASP
 5. Create and interpret histograms, boxplots, and Q-Q Plots
 
 ### Dataset: download link will be available on Canvas
@@ -38,7 +38,11 @@ fontsize: 11pt
 
 What is(are) the independent variable(s) for this data set?
 
+`IV: Gender, Group`
+
 What is(are) the dependent variable(s) for this data set?
+
+`DV: Heart Rate`
 
 ------------------------------------------------------------------------
 
@@ -61,3 +65,5 @@ Note: If turning this assignment for grade, **copy and paste the boxplot graph b
 **Question 5**: Before proceeding, unselect **all** previously selected cases. Using the variable *Heart Rate*, create two Q-Q Plots (one for males and one for females). Without considering the other sources of normality (e.g., zkurt, zskew, histogram, Shapiro-Wilk test), does the distribution of scores appear to be approximating or deviating from normality for males? How about females?
 
 Note: If turning this assignment for grade, **copy and paste the Q-Q Plots below** and **provide your answers** below the graphs.
+
+

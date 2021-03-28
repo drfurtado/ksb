@@ -1,3 +1,43 @@
+--- 
+title: "Teaching Stats with JASP: A Guide to Data Analysis & Interpretation"
+author: "Ovande Furtado, Jr., Ph.D."
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    df_print: paged
+documentclass: book
+bibliography:
+- book.bib
+- packages.bib
+biblio-style: apalike
+csl: apa-numeric-superscript-brackets.csl
+link-citations: yes
+description: A Guide to Data Analysis & Interpretation
+site: bookdown::bookdown_site
+---
+
+# Preface {.unnumbered}
+
+This is a companion book[^index-1] used in a course[^index-2] I teach at [Cal State Northridge](https://academics.csun.edu/faculty/ovande.furtado){target="_blank"}. This book is comprised of step-by-step tutorials showing how to perform statistical analysis with [JASP](#jasp).
+
+[^index-1]: The online version of this book is free to read and licensed under [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/){target="_blank"}.
+
+[^index-2]: KIN610 - Quantitative Analysis of Research in Kinesiology
+
+Future versions of this book will contain topics related to **hypothesis testing**, **descriptive and inferential statistics**, etc. The goal is for this book to evolve into a textbook that may be used in Introductory Statistics courses taught at the undergraduate or graduate levels.
+
+**Updates**
+
+I announce major updates made to this book on Twitter. For updates, follow me at ofurtado[^index-3]. Alternatively, you can subscribe to my blog [www.drfurtado.us](http://drfurtado.us){target="_blank"} for updates.
+
+[^index-3]: <http://twitter.com/ofurtado>
+
+**How to use this book**
+
+To take full advantage of this book, I encourage you to download and install JASP (Section \@ref(jasp-install)). so that you can follow along. You will need to take some time to practice the tutorials using JASP. Besides, make sure to complete the challenge exercises you will encounter while studying the tutorials found throughout this book.
+
+<!--chapter:end:index.Rmd-->
+
 # (APPENDIX) Appendix {.unnumbered}
 
 # Software
@@ -133,3 +173,12 @@ where:
 
 - $s$ is the sample standard deviation.
 - $\bar{x}$ is the sample mean.
+
+<!--chapter:end:appendix.Rmd-->
+
+`r if (knitr::is_html_output()) '
+# References {-}
+'`
+
+<!--chapter:end:06-references.Rmd-->
+
