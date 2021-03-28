@@ -22,7 +22,7 @@ Your name:
 
 **Instructions**
 
-Use this template when ready answer the project questions found in the [project's instructions file](project-01.html).
+Follow the steps found in the [project's instructions file](https://drfurtado.github.io/tsj/assignment-examples.html#projects). Then, use this word document to 
 
 **Research Question**
 
