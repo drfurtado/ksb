@@ -24,6 +24,56 @@
             "type": "book"
         },
         {
+            "URL": "https://jasp-stats.org/",
+            "author": [
+                {
+                    "family": "JASP Team"
+                }
+            ],
+            "id": "JASP2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "note": "Citation Key: JASP2020",
+            "title": "JASP (version 0.14.1)\\[Computer software\\]",
+            "type": "article-journal"
+        },
+        {
+            "URL": "https://jasp-stats.org/wp-content/uploads/2020/11/Statistical-Analysis-in-JASP-A-Students-Guide-v14-Nov2020.pdf",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2021,
+                        2,
+                        26
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Goss-Sampson",
+                    "given": "Mark"
+                }
+            ],
+            "id": "goss-sampsonStatisticalAnalysisJASP2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "keyword": "10402 Biostatistics,FOS: Mathematics",
+            "language": "en-US",
+            "publisher": "figshare",
+            "title": "Statistical Analysis in JASP - A Students Guide v0.14",
+            "type": "book"
+        },
+        {
             "URL": "https://www.R-project.org/",
             "author": [
                 {
@@ -34,7 +84,7 @@
             "issued": {
                 "date-parts": [
                     [
-                        2019
+                        2020
                     ]
                 ]
             },
@@ -60,7 +110,7 @@
                     ]
                 ]
             },
-            "note": "R package version 0.21",
+            "note": "R package version 0.21.6",
             "title": "Bookdown: Authoring books and technical documents with r markdown",
             "title-short": "Bookdown",
             "type": "book"
@@ -77,17 +127,16 @@
             "issued": {
                 "date-parts": [
                     [
-                        2020
+                        2021
                     ]
                 ]
             },
-            "note": "R package version 1.30",
+            "note": "R package version 1.31",
             "title": "Knitr: A general-purpose package for dynamic report generation in r",
             "title-short": "Knitr",
             "type": "book"
         },
         {
-            "URL": "https://github.com/rstudio/rmarkdown",
             "author": [
                 {
                     "family": "Allaire",
@@ -134,11 +183,11 @@
             "issued": {
                 "date-parts": [
                     [
-                        2020
+                        2021
                     ]
                 ]
             },
-            "note": "R package version 2.6",
+            "note": "https://rmarkdown.rstudio.com/docs/, https://github.com/rstudio/rmarkdown",
             "title": "Rmarkdown: Dynamic documents for r",
             "title-short": "Rmarkdown",
             "type": "book"

@@ -146,13 +146,13 @@ When evaluating the size of a bivariate correlation, please use Cohen (1988)
 
 ***Research Question #1***
 
-It has been published in the press that players from `Iowa State` work harder during practice compared to players from any other college teams in the country.
+It has been reported that players from `Iowa State` work harder during practice compared to players from any other college teams in the country.
 
 Since you had access to players from another university in the State of Iowa `(University of Iowa)`, you decided to test this hypothesis.
 
 As a group, do players from `Iowa State (70)` perform better than players from `Iowa University (69)` on the `Bench Press (post)` test? How about for `vertical leap (post)`?
 
-> You will need to Filter cases to perform this analysis so that only values `69` and `70` is selected for `college`. If a parametric test is selected/checked.
+> You will need to filter cases to perform this analysis so that only values `69` and `70` is selected for `college`. Notice that you will need to run the analysis for bench press and vertical leap.
 
 ***Research Question #2***
 
@@ -160,31 +160,31 @@ Research has shown that in the general population there is a `negative` and `mod
 
 Assume that you are specially interested in football players that play as `Defensive Ends (3)`. Is there a relationship between `Weight` and `Broad Jump (pre)` scores among `Defensive Ends (3)`?
 
-> You will need to Filter cases to perform this analysis so that only the value `3` is selected/checked for `position`.
+> You will need to filter cases to perform this analysis so that only value `3` is selected/checked for `position`.
 
 ***Research Question #3***
 
-Defensive players are known to be stronger than those playing on other positions. But how about if we compare defense players among themselves from different positions?
+Defensive players are known to be stronger than those playing on other positions. But how about if we compare defensive players among themselves from different positions?
 
 Are Defensive `Tackles (4)`, `Linebackers (10)`, and `Cornerbacks (2)` different when it comes to `bench press (pre)` scores?
 
-> You will need to Filter cases to perform this analysis so that only the valuea `4`, `10` and `2` are selected/checked for `position`.
+> You will need to filter cases to perform this analysis so that only the values `4`, `10` and `2` are selected/checked for `position`.
 
 ***Research Question #4***
 
-As an athletic trainer working for the NFL Scouting Combine, you decided to test the effectiveness of a program you developed to improve players' agility. If deemed effective, the program could eventually be sold to NFL professional teams.
+As an athletic trainer working for the NFL Scouting Combine, you decided to test the effectiveness of a program you developed to improve players' `agility`. If deemed effective, the program could eventually be sold to NFL professional teams.
 
 To test the effectiveness of the program, you invited players from `Ohio State University` to participate in this 2-week program (3 hours everyday). At the end of the 2-week period, players were re-tested on the `20-yard Shuttle` and the `3-cone Drill`.
 
 Do players from `Ohio State University (127)` improve their scores on the `20-yard Shuttle` from pre to post-test? How about for the `3-cone Drill`?
 
-> You will need to Filter cases to perform this analysis so that only the value `127` is selected/checked for `college`.
+> You will need to filter cases to perform this analysis so that only the value `127` is selected/checked for `college`. Notice that you will need to run the analysis for 20-yard Shuttle and 3-cone Drill.
 
 ***Research Question #5***
 
-There is evidence that `Wide Receivers` and `Running Backs` have a higher incidence of concussion compared to players from other football positions. Over the years, this may negatively affect the players' cognitive ability. For instance, how would they compare to Quarterbacks, who arguably are less prone to suffer concussions during a football match.
+There is evidence that `Wide Receivers` and `Running Backs` have a higher incidence of concussion compared to players from other football positions. Over the years, this may negatively affect the players' cognitive ability. For instance, how would they compare to `Quarterbacks`, who arguably are less likely to suffer concussions during a football match.
 
-How do players playing as `Wide Receivers (22)`, `Running Backs (18)` and `Quarterbacks (17)` compare on the Wonderlic scores? For this analysis, please, ONLY use the data for 2020 data?
+How do players playing as `Wide Receivers (22)`, `Running Backs (18)` and `Quarterbacks (17)` compare on the Wonderlic scores? For this analysis, please, **ONLY use the data for 2020 data**.
 
 > You will need to Filter cases to perform this analysis so that only the values `17`, `18` and `22` are selected/checked for `position`.
 

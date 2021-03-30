@@ -1,7 +1,0 @@
-book_filename: "ksb"
-output_dir: "docs"
-delete_merged_file: true
-language:
-  ui:
-    chapter_name: "Chapter "
-rmd_files: ["index.Rmd", "01-intro.Rmd","03-method.Rmd","appendices.Rmd","06-references.Rmd"]
