@@ -192,3 +192,18 @@ Provide below the **histogram** graph:
 Create a histogram for `Shuttle` using `ggplot2` as the color palette. Did the creation of the boxplot reveal any outliers? Explain.
 
 Provide below the **boxblot** graph:
+
+----
+
+Answer Sheet
+
+```{r}
+
+Question 1
+
+----
+  
+Question 2
+
+```
+

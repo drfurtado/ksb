@@ -20,13 +20,22 @@ Please, follow the instructions found in [@goss-sampsonStatisticalAnalysisJASP20
 
 In this section, I provide several examples of assignments instructors can use when teaching introductory statistics courses to undergraduate or graduate students.
 
-## Descriptive Statistics
+## Homeworks
 
-* Example 1: [HTML](assignments/project-01.html) | [Word](assignments/project-01-temp.docx) 
+### Descriptive Statistics
+
+**Learning objectives**
+
+1. create filters in JASP
+2. calculate measures of central tendency and variability in JASP
+3. differentiate between descriptive and inferential statistics
+4. create and interpret histograms and boxplots
+
+Example 1: [instructions](assignments/descriptive-01.html) | [answer sheet](assignments/descriptive-01.docx) 
 
 ## Projects
 
-* Example 1: [HTML](assignments/project-01.html) | [Word](assignments/project-01-temp.docx)
+* Example 1: [instructions](assignments/project-01.html) | [answer sheet - docx](assignments/project-01-temp.docx)
 
 # Symbols and Equations {#symbols-equations}
 

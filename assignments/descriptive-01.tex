@@ -34,7 +34,8 @@
 \renewcommand{\footrulewidth}{0.0pt} 
 \lhead{\footnotesize \textbf{Dr.~Furtado}}
 \chead{}
-\rhead{\footnotesize \emph{TSJ \textbar{} JASP Assignment 1}}
+\rhead{\footnotesize \emph{TSJ \textbar{} Homework: Descriptive Stats
+01}}
 %\lfoot{}
 %\cfoot{\small \thepage/\pageref*{LastPage}}
 %\rfoot{}
@@ -76,7 +77,7 @@
             bookmarks=true,
             pdfauthor={ ()},
              pdfkeywords = {},  
-            pdftitle={TSJ \textbar{} JASP Assignment 1},
+            pdftitle={TSJ \textbar{} Homework: Descriptive Stats 01},
             colorlinks=true,
             citecolor=blue,
             urlcolor=blue,
@@ -93,7 +94,7 @@
 
 \usepackage{setspace}
 
-\title{TSJ \textbar{} JASP Assignment 1}
+\title{TSJ \textbar{} Homework: Descriptive Stats 01}
 \author{Dr.~Furtado}
 \date{}
 
@@ -110,8 +111,8 @@
 
 \thispagestyle{plain} 
 
-\begin{flushleft}\Large \bf TSJ \textbar{} JASP Assignment
-1  \end{flushleft}
+\begin{flushleft}\Large \bf TSJ \textbar{} Homework: Descriptive Stats
+01  \end{flushleft}
 	\vspace{1 mm}   
 Dr.~Furtado \\
 \emph{Department of Kinesiology, Cal State Northridge} \\
@@ -127,72 +128,264 @@ Dr.~Furtado \\
 
 
 \hypertarget{learning-objectives}{%
-\subsection{Learning objectives}\label{learning-objectives}}
+\paragraph{Learning objectives}\label{learning-objectives}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Differentiate between independent and dependent variables
+  create filters in JASP
 \item
-  Assign the correct data level to variables (nominal, ordinal, and
-  scale)
+  calculate measures of central tendency and variability in JASP
 \item
-  Create and compute new variables in JASP
+  differentiate between descriptive and inferential statistics
 \item
-  Select and unselect cases in JASP
-\item
-  Create and interpret histograms, boxplots, and Q-Q Plots
+  create and interpret histograms and boxplots
 \end{enumerate}
 
 \hypertarget{dataset-download-link-will-be-available-on-canvas}{%
-\subsection{Dataset: download link will be available on
+\paragraph{Dataset: download link will be available on
 Canvas}\label{dataset-download-link-will-be-available-on-canvas}}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Open the data set in JASP (Open \textgreater{} Computer)
-\item
-  Note the data set has 3 variables
-\item
-  Set the variables to their appropriate scale (e.g., Nominal, Ordinal,
-  Scale)
-\end{enumerate}
-
-Questions \footnote{Each question is worth 2 points}
-
-\hypertarget{learning-objectives-1}{%
-\subsection{Learning Objectives}\label{learning-objectives-1}}
-
-1\ldots{}
-
-2\ldots{}
-
-\hypertarget{data-set}{%
-\subsection{Data set}\label{data-set}}
 
 We will use a modified version of the NFL Combine data set (ref needed).
 The data set can be downloaded from this link:
 \url{https://osf.io/tbgfh/}
 
-Open the data set in JASP and proceed to answer the following questions:
+Note that you will be required to apply/remove filters when completing
+some of the required analysis for this assignment\footnote{Refer to this
+  link for help: \url{https://bit.ly/37RPncf}}.
 
-\hypertarget{questions}{%
-\subsection{Questions}\label{questions}}
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Open the data set in JASP and proceed to answer the following
+questions\footnote{Questions are worth 10 points}:
 
 \textbf{Question 1}
 
-For the variables \texttt{Heightin} and \texttt{Weightlbs}, create a
-table containing the following: \texttt{mean}, \texttt{median},
-\texttt{standard\ deviation}, \texttt{min}, \texttt{max}, and
-\texttt{sample\ size} (n). This table will be called \textbf{Descriptive
-Statistics}.
+\textbf{Filter}: apply a filter to \texttt{Position} so that only
+\texttt{Wide\ Receivers} (WR) and \texttt{Safety} (S) are included in
+this analysis.
 
-In addition, ensure to filter the data so that only
-\texttt{Wide\ Receivers} (WR) and \texttt{Safety} (S) are include in the
-table.
+For the variables \texttt{Heightin} and \texttt{Weightlbs}, compute the
+following: \texttt{mean}, \texttt{median}, \texttt{standard\ deviation},
+\texttt{min}, \texttt{max}, and \texttt{sample\ size} (n).
+
+Provide below the \textbf{Descriptive Statistics} Table:
+
+\begin{table}[h]
+    \centering
+    \caption{Descriptive Statistics - DEMONSTRATION}
+    \label{tab:descriptiveStatistics}
+    {
+        \begin{tabular}{lrrrr}
+            \toprule
+            \multicolumn{1}{c}{} & \multicolumn{2}{c}{Heightin} & \multicolumn{2}{c}{Weightlbs} \\
+            \cline{2-3}\cline{4-5}
+             & S & WR & S & WR  \\
+            \cmidrule[0.4pt]{1-5}
+            Valid & 25 & 43 & 25 & 43  \\
+            Missing & 0 & 0 & 0 & 0  \\
+            Mean & 71.920 & 72.674 & 206.320 & 203.651  \\
+            Median & 72.000 & 73.000 & 207.000 & 202.000  \\
+            Std. Deviation & 1.681 & 1.835 & 7.609 & 11.284  \\
+            Minimum & 69.000 & 69.000 & 191.000 & 182.000  \\
+            Maximum & 76.000 & 76.000 & 218.000 & 234.000  \\
+            \bottomrule
+        \end{tabular}
+    }
+\end{table}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Question 2}
+
+\textbf{Filter}: remove all filters before proceeding!
+
+Considering the nature of both dependent variables used in Question 1
+and assuming the distribution of scores for both variables are
+\textbf{approximating normality}, which measure of central tendency
+should be reported (mean, mode, or median)? Explain.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Question 3}
+
+In questions 1, you calculated the measures of central tendency and
+variability, which fall under the category of descriptive statistics.
+Discuss the difference between \textbf{descriptive statistics} and
+\textbf{inferential statistics}. More complete answers will receive more
+points.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Question 4}
+
+\textbf{Filter}: apply a filter to \texttt{Position} so that only
+\texttt{Quarterbacks} (QB) are included in this analysis.
+
+Using the variable \texttt{BroadJumpin}, calculate the \texttt{range},
+\texttt{standard\ deviation} and the \texttt{IQR} for Quarterbacks (QB)
+ONLY.
+
+Provide below the \textbf{Descriptive Statistics} Table:
+
+\begin{table}[h]
+    \centering
+    \caption{Descriptive Statistics - DEMONSTRATION}
+    \label{tab:descriptiveStatistics}
+    {
+        \begin{tabular}{lrrrr}
+            \toprule
+            \multicolumn{1}{c}{} & \multicolumn{2}{c}{Heightin} & \multicolumn{2}{c}{Weightlbs} \\
+            \cline{2-3}\cline{4-5}
+             & S & WR & S & WR  \\
+            \cmidrule[0.4pt]{1-5}
+            Valid & 25 & 43 & 25 & 43  \\
+            Missing & 0 & 0 & 0 & 0  \\
+            Mean & 71.920 & 72.674 & 206.320 & 203.651  \\
+            Median & 72.000 & 73.000 & 207.000 & 202.000  \\
+            Std. Deviation & 1.681 & 1.835 & 7.609 & 11.284  \\
+            Minimum & 69.000 & 69.000 & 191.000 & 182.000  \\
+            Maximum & 76.000 & 76.000 & 218.000 & 234.000  \\
+            \bottomrule
+        \end{tabular}
+    }
+\end{table}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Question 5}
+
+\textbf{Filter}: remove all filters before proceeding!
+
+In Question 1, you were asked to calculate the standard deviation of
+height (inches) and weight (lbs). Suppose you want to compare the
+\texttt{standard\ deviations} of \texttt{height} and \texttt{weight}.
+How the two standard deviations compare?
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Question 6}
+
+When calculating the sample variance and standard deviation, JASP uses
+\texttt{N-1} in the denominator (see below). In your own words, explain
+why \texttt{N-1} is used instead of \texttt{N}.
+
+Standard Deviation equation for the sample:
+
+\(\sigma = \sqrt{\frac{\sum (x - \mu)^2}{N-1}}\)
+
+Variance equation for the sample:
+
+\(s^2 = \frac{\sum (x - \bar{x})^2}{N - 1}\)
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Question 7}
+
+The \texttt{variance} and the \texttt{standard\ deviation} are the two
+most common measures of variability reported in research manuscripts.
+Let's say the manuscript you submitted for publication was returned by
+the editor. The editor-in-chief has asked you to report either the
+\texttt{variance} OR the \texttt{standard\ deviation}. Which one would
+you pick and why?
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Question 8}
+
+\textbf{Filter}: apply a filter to \texttt{Status} so that \textbf{only}
+\texttt{Year\ 2} is included in this analysis.
+
+The variable ``Status'' refers to players who were either tested during
+the first or second year. Run an analysis to calculate the
+\texttt{mean}, and \texttt{standard\ deviation} for the variable
+\texttt{Shuttle}.
+
+Provide below the \textbf{Descriptive Statistics} Table:
+
+\begin{table}[h]
+    \centering
+    \caption{Descriptive Statistics - DEMONSTRATION}
+    \label{tab:descriptiveStatistics}
+    {
+        \begin{tabular}{lr}
+            \toprule
+             & Shuttle  \\
+            \cmidrule[0.4pt]{1-2}
+            Valid & 78  \\
+            Missing & 42  \\
+            Mean & 4.433  \\
+            Std. Deviation & 0.266  \\
+            \bottomrule
+        \end{tabular}
+    }
+\end{table}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Question 9}
+
+Create a histogram for the variable \texttt{Shuttle} and add the density
+line to it.
+
+Provide the histogram create by JASP below and state whether the
+distribution of scores for \texttt{Shuttle} appears to be deviating or
+approximating normality. In this particular case, disregard other
+sources of normality (skewness, kurtosis, QQ-plots, Shapiro-Wilk test,
+etc.).
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Provide below the \textbf{histogram} graph:
+
+\textbf{Question 10}
+
+Create a histogram for \texttt{Shuttle} using \texttt{ggplot2} as the
+color palette. Did the creation of the boxplot reveal any outliers?
+Explain.
+
+Provide below the \textbf{boxblot} graph:
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Answer Sheet}: Students completing this assignment for grade may
+copy the content below and paste it in a word processor (e.g., MS Word,
+Google Docs, etc.)
+
+Copy content from next line below:
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Institution Name
+
+Course Name
+
+Instructor name
+
+Student Name
+
+Question 1
+
+Answer:
+
+Any relevant tables/graphs
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Question 2
+
+Answer:
+
+Any relevant tables/graphs
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Question 3
+
+Answer:
+
+Any relevant tables/graphs
 
 
 

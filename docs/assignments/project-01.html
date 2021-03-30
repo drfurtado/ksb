@@ -172,8 +172,8 @@ pre code {
 </div>
 
 
-<div id="learning-objectives" class="section level4">
-<h4>Learning objectives</h4>
+<div id="learning-objectives" class="section level3">
+<h3>Learning objectives</h3>
 <ol style="list-style-type: decimal">
 <li>Identify variables from a research question statement</li>
 <li>Formulate hypotheses from a research question statement</li>
@@ -185,56 +185,47 @@ pre code {
 </ol>
 <hr />
 </div>
-<div id="related-files" class="section level4">
-<h4>Related files</h4>
-<p><strong>Data set</strong></p>
+<div id="data-files" class="section level3">
+<h3>Data Files</h3>
 <ol style="list-style-type: decimal">
 <li><a href="https://osf.io/bf58v/">Link</a> to download the data set</li>
 <li><a href="https://osf.io/sg46v/">Link</a> to download the data codebook</li>
 </ol>
-<p><strong>Report Template</strong></p>
-<ol style="list-style-type: decimal">
-<li><a href="final-project-template.docx">Link</a> to the template you <code>must</code> use to complete your project - no exception.</li>
-</ol>
-<hr />
+</div>
+<div id="data-information" class="section level3">
+<h3>Data Information</h3>
 <p>The date for this project come from the <a href="https://en.wikipedia.org/wiki/NFL_Scouting_Combine">NFL Scouting Combine</a>. The NFL Combine is held prior to the draft every year, testing players in the 40 yard dash, vertical jump, bench press, broad jump, shuttle, and three cone drill.</p>
 <p>The description of each drill can be <a href="https://nflcombineresults.com/nfl-combine-drills-101-what-each-drill-measures/">found here</a> and <a href="https://www.espn.com/nfl/draft2018/story/_/id/22587931/guide-nfl-draft-combine-drills-todd-mcshay-numbers-know-40-yard-dash-short-shuttle-bench-press">here</a>. Please, <a href="https://protips.dickssportinggoods.com/sports-and-activities/football/football-101-football-positions-and-their-roles">click here</a> to learn about football positions.</p>
-<blockquote>
-<p>This data set CANNOT be considered a true random sample since not everyone from the study population had the same chance to be included in the sample.</p>
-</blockquote>
+<pre><code>This data set CANNOT be considered a true random sample since not everyone from the study population had the same chance to be included in the sample.</code></pre>
 <p>For the final project, I have modified the data set in the following ways:</p>
 <ol style="list-style-type: decimal">
 <li><p>Extra variables were created for each dependent variable and random numbers were generated for these variables. Thus, the data for the “pos-test” variables are fabricated.</p></li>
 <li><p>Scores were also fabricated using the test’s population mean and standard deviation for the Wonderlic<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> variable. Due to privacy, the data for this variable are not publicly available.</p></li>
 </ol>
 <hr />
-</div>
-<div id="steps" class="section level4">
-<h4>Steps</h4>
 <p>You will be given a research question and a data set. Then, after running the appropriate statistical model, proceed to write the report.</p>
-<p>You will be asked to:</p>
-<div id="identify-the-dependent-and-independent-variables" class="section level5">
-<h5>1. Identify the dependent and independent variable(s)</h5>
+</div>
+<div id="section-1-dependent-and-independent-variables" class="section level3">
+<h3>Section 1: Dependent and independent variable(s)</h3>
 <p>Once you are given access to the research question and the data set, identify the Independent and Dependent variables that will be part of your analysis:</p>
-<ul>
+<ol style="list-style-type: lower-alpha">
 <li><p>For the DV, identify whether it is continuous or discrete (nominal or ordinal).</p></li>
 <li><p>For the IV, identify the levels associated with it (i.,e. sex - two levels; males and females)</p></li>
-<li><p>Whenever applicable, run the normality plots with tests to verify whether the distribution of scores for the dependent variable is approximating or deviating from normality. Use this information to decide whether you will need to use a parametric or non-parametric test (i., e. independent-samples t-test vs Mann-Whitney test).</p></li>
-</ul>
+</ol>
+<pre><code>Whenever applicable, run the normality plots with tests to verify whether the distribution of scores for the dependent variable is approximating or deviating from normality. Use this information to decide whether you will need to use a parametric or non-parametric test (i., e. independent-samples t-test vs Mann-Whitney test). If you do, then provide the information under Data Analysis.</code></pre>
 <hr />
 </div>
-<div id="formulate-the-hypothesisses-for-each-of-the-dependent-variables" class="section level5">
-<h5>2. Formulate the hypothesis(ses) for each of the dependent variable(s)</h5>
+<div id="hypothesisses-for-each-of-the-dependent-variables" class="section level3">
+<h3>2. Hypothesis(ses) for each of the dependent variable(s)</h3>
 <p>A hypothesis for each of the DVs must be formulated. First, state your prediction; i.e., <code>10-year-old girls will overperform 10-year-old boys on the skill of skipping</code>.</p>
-<p>Next, you must decide whether you will be testing your hypothesis using the one-tailed or the two-tailed test. Once this is decided, you are ready to state the Ho and the Ha:</p>
+<p>Next, you must decide whether you will be testing your hypothesis using the one-tailed or the two-tailed test. Once this is decided, you are ready to state the <code>Ho</code> (Null) and the <code>Ha</code> (Alternative Hypothesis). Below is an example of two-tailed test (non-directional hypothesis):</p>
 <ul>
 <li>Ho: 10-year-old girls and boys perform similarly on the skill of skipping</li>
 <li>Ha: 10-year-old girls and boys will perform differently on the skill of skipping</li>
 </ul>
-<p>Notice above that Ha was stated as non-directional (two-tailed) because, even though we predicted that girls will do better than boys, we are uncertain of this prediction. Thus, the recommendation is to choose the two-tailed test.</p>
+<p>Notice above that <code>Ha</code> was stated as non-directional (two-tailed) because, even though we predicted that girls will do better than boys, we are uncertain of this prediction. Thus, the recommendation is to choose the two-tailed test.</p>
 <p>Recall that you should only use a directional hypothesis (one-tailed) if you have strong evidence of the direction of the effect (refer to our textbook about one- and two-tailed tests).</p>
 <hr />
-</div>
 <div id="choose-the-appropriate-statistical-model-to-test-the-hypothesisses" class="section level5">
 <h5>3. Choose the appropriate statistical model to test the hypothesis(ses)</h5>
 <p>State the statistical procedure (i.e., ANOVA, Spearman rho) you selected to test the hypothesis(ses) and explain the rationale for choosing the procedure(s).</p>
@@ -263,6 +254,7 @@ pre code {
 </ul></li>
 <li><p>Results<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p></li>
 </ol>
+<!-- -->
 <ol style="list-style-type: lower-alpha">
 <li><p>You will be required to add <code>at least two</code> tables and <code>one graph</code> to enhance the <code>Results</code> section. Tables and graphs must come from JASP and be related to the statistical model used to test your hypothesis(es).</p>
 <ul>
@@ -284,7 +276,6 @@ pre code {
 <h5>6. References (following the 6th APA Style)</h5>
 <p>All sources consulted must be properly cite (in-text citation following APA Style) and the sources must be listed under <code>References</code>.</p>
 <hr />
-</div>
 </div>
 <div id="appendices" class="section level4">
 <h4>Appendices</h4>
@@ -395,6 +386,93 @@ pre code {
 <blockquote>
 <p>For this analysis, use the variables <code>3-cone Drill</code>, and filter cases so that only position <code>18</code> is selected/checked. Also, note that this study involves only players who were tested in <code>2020</code>.</p>
 </blockquote>
+<hr />
+<p>C. Answer Sheet</p>
+<pre><code>Institution Name
+Course Name
+Instructor name
+Student Name
+
+----
+
+Question 1
+
+Answer:
+
+Any relevant tables/graphs
+
+----
+
+Question 2
+
+Answer:
+
+Any relevant tables/graphs
+
+----
+
+Question 3
+
+Answer:
+
+Any relevant tables/graphs
+
+----
+
+Question 4
+
+Answer:
+
+Any relevant tables/graphs
+
+----
+
+Question 5
+
+Answer:
+
+Any relevant tables/graphs
+
+----
+
+Question 6
+
+Answer:
+
+Any relevant tables/graphs
+
+----
+
+Question 7
+
+Answer:
+
+Any relevant tables/graphs
+
+----
+
+Question 8
+
+Answer:
+
+Any relevant tables/graphs
+
+----
+
+Question 9
+
+Answer:
+
+Any relevant tables/graphs
+
+----
+
+Question 10
+
+Answer:
+
+Any relevant tables/graphs</code></pre>
+</div>
 </div>
 <div class="footnotes">
 <hr />

@@ -5,7 +5,7 @@
 <meta charset="utf-8" />
 <meta name="generator" content="pandoc" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta property="og:title" content="A Software | Teaching Stats with JASP: A Guide to Data Analysis &amp; Interpretation" />
+<meta property="og:title" content="C.2 Equations | Teaching Stats with JASP: A Guide to Data Analysis &amp; Interpretation" />
 <meta property="og:type" content="book" />
 
 
@@ -25,7 +25,7 @@ MathJax.Hub.Config({
 
 <meta name="description" content="A Guide to Data Analysis &amp; Interpretation">
 
-<title>A Software | Teaching Stats with JASP: A Guide to Data Analysis &amp; Interpretation</title>
+<title>C.2 Equations | Teaching Stats with JASP: A Guide to Data Analysis &amp; Interpretation</title>
 
 <script src="libs/header-attrs-2.7.4/header-attrs.js"></script>
 <script src="libs/jquery-1.11.3/jquery.min.js"></script>
@@ -129,13 +129,80 @@ img {
 </div>
 <div class="row">
 <div class="col-sm-12">
-<div id="software" class="section level1" number="1">
-<h1><span class="header-section-number">A</span> Software</h1>
-<p>To study and learn the content presented in this book, you will be required to download and install a few computer standalone applications. Below, you will learn how to download and install these applications in your machine.</p>
+<div id="equations" class="section level2" number="3.2">
+<h2><span class="header-section-number">C.2</span> Equations</h2>
+<p>Although, in general, you will not be required to perform calculations by hand while following the tutorials found in this book, it is worth getting familiar with some key equations.</p>
+<p><strong>Standard error of the mean (SEM)</strong></p>
+<p><span class="math display" id="eq:sem">\[\begin{equation}
+\sigma_{\bar{x}}=\frac{\sigma}{\sqrt{n}}
+\tag{C.1}
+\end{equation}\]</span></p>
+<p>where:</p>
+<ul>
+<li><span class="math inline">\(\sigma_{\bar{x}}\)</span> refers standard deviation of the sample means indicated by <span class="math inline">\(\bar{x}\)</span>.</li>
+<li><span class="math inline">\(n\)</span> refers to the sample size.</li>
+<li><span class="math inline">\(\sigma\)</span> refers to the population standard deviation.</li>
+</ul>
+<hr />
+<p><strong>Z-test (</strong><span class="math inline">\(\sigma\)</span> is Known)</p>
+<p>A test used to compare a sample mean with a population value when the standard deviation of the population (<span class="math inline">\(\sigma\)</span>) is known and the sample size (n) is larger than 30.</p>
+<p><span class="math display" id="eq:ztest">\[\begin{equation}
+\label{standard normal value}
+z = \frac{x - \mu}{\sigma}
+\tag{C.2}
+\end{equation}\]</span></p>
+<p>where:</p>
+<ul>
+<li><span class="math inline">\(\bar{x}\)</span> refers to the sample mean.</li>
+<li><span class="math inline">\(\mu\)</span> refers to the population mean.</li>
+<li><span class="math inline">\(\sigma\)</span> refers to the population standard deviation.</li>
+<li><span class="math inline">\(n\)</span> refers to the sample size.</li>
+</ul>
+<hr />
+<p><strong>One-Sample t-test (</strong><span class="math inline">\(\sigma\)</span> is Unknown)</p>
+<p><span class="math display" id="eq:onet" id="eq:t-test-one">\[\begin{equation}
+\label{testing a mean sigma unknown}\tag{C.3} 
+t = \frac{\bar{x}-\mu}{\frac{s}{\sqrt{n}}}
+\tag{C.4}
+\end{equation}\]</span></p>
+<p>with <span class="math inline">\(n-1\)</span> degrees of freedom where:</p>
+<ul>
+<li><span class="math inline">\(\bar{x}\)</span> is the sample mean.</li>
+<li><span class="math inline">\(\mu\)</span> is the hypothesized population mean.</li>
+<li><span class="math inline">\(s\)</span> is the sample standard deviation.</li>
+<li><span class="math inline">\(n\)</span> is the number of observations in the sample.</li>
+</ul>
+<hr />
+<p><strong>Standard Deviation of Differences</strong> - Two-Sample Test</p>
+<p><span class="math display">\[\begin{equation}
+s_{d} = \sqrt{\frac{\sum(d - \bar{d})^2}{n - 1}}
+(#eq:??)
+\end{equation}\]</span></p>
+<p>where:</p>
+<ul>
+<li><span class="math inline">\(\bar{d}\)</span> is the mean of the difference between the paired or related observations.</li>
+<li><span class="math inline">\(s_{d}\)</span> is the standard deviation of the differences between the paired or related observations.</li>
+<li><span class="math inline">\(n\)</span> is the number of paired observations.</li>
+</ul>
+<hr />
+<p><strong>Coefficient of Variation</strong></p>
+<p><span class="math display" id="eq:binom">\[\begin{equation}
+\text{CV} = \frac{s}{\bar{x}}(100)
+  \tag{C.5}
+\end{equation}\]</span></p>
+<p>Note: multiplying by 100 converts the decimal to a percent</p>
+<p>where:</p>
+<ul>
+<li><span class="math inline">\(s\)</span> is the sample standard deviation.</li>
+<li><span class="math inline">\(\bar{x}\)</span> is the sample mean.</li>
+</ul>
+<hr />
+
 </div>
+<!-- </div> -->
 <p style="text-align: center;">
-<a href="index.html"><button class="btn btn-default">Previous</button></a>
-<a href="A-1-jasp.html"><button class="btn btn-default">Next</button></a>
+<a href="C-1-symbols.html"><button class="btn btn-default">Previous</button></a>
+<a href="references.html"><button class="btn btn-default">Next</button></a>
 </p>
 </div>
 </div>
