@@ -23,7 +23,7 @@ fontsize: 11pt
 1. Differentiate between independent and dependent variables
 2. Assign the correct data level to variables (nominal, ordinal, and scale)
 3. Create and compute new variables in JASP
-4. Select and unselect cases in JASP
+4. Select and deselect cases in JASP
 5. Create and interpret histograms, boxplots, and Q-Q Plots
 
 ### Dataset: download link will be available on Canvas

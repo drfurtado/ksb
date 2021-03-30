@@ -9,6 +9,7 @@ prerequisites
 jasp-install
 assignment-examples
 homeworks
+jasp-1
 descriptive-statistics
 projects
 symbols-equations

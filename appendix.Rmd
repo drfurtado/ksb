@@ -16,13 +16,13 @@ The open-source statistical package JASP [@JASP2020] will be used to demonstrate
 
 Please, follow the instructions found in [@goss-sampsonStatisticalAnalysisJASP2020] to install JASP in your device.
 
-# Assignment Examples
+# Assignment Examples {#assignment-examples}
 
 In this section, I provide several examples of assignments instructors can use when teaching introductory statistics courses to undergraduate or graduate students.
 
 ## Homeworks
 
-### Descriptive Statistics
+### JASP
 
 **Learning objectives**
 
@@ -31,11 +31,25 @@ In this section, I provide several examples of assignments instructors can use w
 3. differentiate between descriptive and inferential statistics
 4. create and interpret histograms and boxplots
 
-Example 1: [instructions](assignments/descriptive-01.html) | [answer sheet](assignments/descriptive-01.docx) 
+Example 1: [instructions](assignments/jasp-01.html)
+
+### Descriptive Statistics
+
+**Learning objectives**
+
+1.	Differentiate between independent and dependent variables
+2.	Assign the correct data level to variables (nominal, ordinal, and scale)
+3.	Create and compute new variables in JASP
+4.	Select and deselect cases in JASP
+5.	Create and interpret histograms, boxplots, and Q-Q Plots
+
+Example 1: [Instructions](assignments/descriptive-01.html)
 
 ## Projects
 
-* Example 1: [instructions](project-01.html)
+* Example 1: [instructions](assignments/project-01.html)
+
+----
 
 # Symbols and Equations {#symbols-equations}
 
