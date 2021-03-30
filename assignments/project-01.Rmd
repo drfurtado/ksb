@@ -186,7 +186,7 @@ There is evidence that `Wide Receivers` and `Running Backs` have a higher incide
 
 How do players playing as `Wide Receivers (22)`, `Running Backs (18)` and `Quarterbacks (17)` compare on the Wonderlic scores? For this analysis, please, **ONLY use the data for 2020 data**.
 
-> You will need to Filter cases to perform this analysis so that only the values `17`, `18` and `22` are selected/checked for `position`.
+> You will need to filter cases to perform this analysis so that only the values `17`, `18` and `22` are selected/checked for `position`.
 
 ***Research Question #6***
 
@@ -200,7 +200,7 @@ According to the test developers, the average (mean) score on the Wonderlic test
 
 Do QBs tested in 2018, 2019, and 2019 perform better than the general population on the Wonderlic Cognitive ability test?
 
-> You will need to Filter cases to perform this analysis so that only the value `17`, is selected/checked for `position`.
+> You will need to filter cases to perform this analysis so that only the value `17`, is selected/checked for `position`.
 
 ***Research Question #7***
 
@@ -208,7 +208,7 @@ It has been [reported](https://www.cbssports.com/nfl/news/nfl-draft-combine-the-
 
 Test the hypothesis that OT (15) players tested in 2018, 2019, and 2020 perform differently than FB (6) players on the Wonderlic Cognitive Ability test.
 
-> You will need to Filter cases to perform this analysis so that only the values `5` and `15` are selected/checked for `position`.
+> You will need to filter cases to perform this analysis so that only the values `5` and `15` are selected/checked for `position`.
 
 ***Research Question #8***
 
@@ -234,11 +234,11 @@ In 2020, you designed a program to help players improve their `speed`.
 
 As a Motor Behaviorist, you work for the NFL Scouting Combine and see the opportunity to collect data and test some of the research questions you have in mind.
 
-In 2020, you designed a program to help players improve their `speed`.
+In `2020`, you designed a program to help players improve their `speed` scores.
 
 `Running Backs (18)` from all attending colleges were selected to be part of the intervention. Test the hypothesis that the players would improve from pre to post-test on the `40-yard Shuttle`.
 
-> For this analysis, use the variables `40-yard Shuttle`, and filter cases so that only position `18` is selected/checked. Also, note that this study involves only players who were tested in `2020`.
+> For this analysis, use the variable `40-yard Shuttle`, and filter cases so that only position `18` is selected/checked. Also, note that this study involves only players who were tested in `2020`.
 
 ***Research Question #11***
 
@@ -248,7 +248,7 @@ In 2020, you designed a program to help players improve their `agility`.
 
 `Quarterbacks (17)` from all attending colleges were selected to be part of the intervention. Test the hypothesis that the players would improve from pre to post-test on the `3-cone Drill`.
 
-> For this analysis, use the variables `3-cone Drill`, and filter cases so that only position `17` is selected/checked. Also, note that this study involves only players who were tested in `2020`.
+> For this analysis, use the variable `3-cone Drill`, and filter cases so that only position `17` is selected/checked. Also, note that this study involves only players who were tested in `2020`.
 
 ***Research Question #12***
 
@@ -258,5 +258,5 @@ In 2020, you designed a program to help players improve their `agility`.
 
 `Running Backs (18)` from all attending colleges were selected to be part of the intervention. Test the hypothesis that the players would improve from pre to post-test on the `3-cone Drill`.
 
-> For this analysis, use the variables `3-cone Drill`, and filter cases so that only position `18` is selected/checked. Also, note that this study involves only players who were tested in `2020`.
+> For this analysis, use the variable `3-cone Drill`, and filter cases so that only position `18` is selected/checked. Also, note that this study involves only players who were tested in `2020`.
 
