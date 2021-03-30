@@ -35,7 +35,7 @@ Example 1: [instructions](assignments/descriptive-01.html) | [answer sheet](assi
 
 ## Projects
 
-* Example 1: [instructions](assignments/project-01.html)
+* Example 1: [instructions](project-01.html)
 
 # Symbols and Equations {#symbols-equations}
 

@@ -3,9 +3,9 @@ title: "KIN 610 | Final Project - Instructions"
 author: "Dr. Furtado"
 header-includes: \linespread{1.05}
 output:
-  word_document: default
   html_document:
     df_print: paged
+  word_document: default
   pdf_document:
     keep_tex: yes
     fig_caption: yes
