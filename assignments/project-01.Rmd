@@ -17,12 +17,14 @@ knit: (function(inputFile, encoding) {
 
 ------------------------------------------------------------------------
 
-### Data Files
+### Related Files
+
+**Data Set**
 
 1.  [Link](https://osf.io/bf58v/) to download the data set
 2.  [Link](https://osf.io/sg46v/) to download the data codebook
 
-### Data Information
+### Data Information {#data-info}
 
 The date for this project come from the [NFL Scouting Combine](https://en.wikipedia.org/wiki/NFL_Scouting_Combine). The NFL Combine is held prior to the draft every year, testing players in the 40 yard dash, vertical jump, bench press, broad jump, shuttle, and three cone drill.
 
@@ -44,11 +46,11 @@ For the final project, I have modified the data set in the following ways:
 
 You will be given a research question and a data set. Then, after running the appropriate statistical model, proceed to write the report.
 
-## Preliminary information
+## Preliminary information {#prelim-info}
 
 This information should be placed under Appendix A. The information provided here will help you to write the research report.
 
-### 1. Search for related articles
+### 1. Search for related articles {#articles}
 
 You will be asked to search and find at least 3 articles related to your research question. These articles are to be used when writing the `Introduction` section of your report. Ensure to include these three sources under `References`.
 
@@ -90,8 +92,6 @@ Note that you must chose a statistical model for each research hypothesis `(Ha)`
 ------------------------------------------------------------------------
 
 ## Structure of the Report
-
-After running the appropriate statistical model to test your hypothesis(ses), proceed to write your report.
 
 Once the preliminary information is gathered, and after running the appropriate statistical model to test your hypothesis(ses), you can proceed to write your research report following the APA Style. You will be required to follow the example proposed by Dr. McLeod (https://bit.ly/3fptZzD). 
 
@@ -246,4 +246,13 @@ In 2020, you designed a program to help players improve their `agility`.
 `Running Backs (18)` from all attending colleges were selected to be part of the intervention. Test the hypothesis that the players would improve from pre to post-test on the `3-cone Drill`.
 
 > For this analysis, use the variable `3-cone Drill`, and filter cases so that only position `18` is selected/checked. Also, note that this study involves only players who were tested in `2020`.
+
+## Appendix C: Timeline {#timeline}
+
+| Due Date | What to submit |
+|:---------|:---------------|
+| 4/6      | [3 related articles](#articles) |
+| 4/20     | 2-page introduction |
+| 5/4      | submit items 2-4 of [`Preliminary Info`](#prelim-info) |
+| 5/11     | submit an outline of the presentation |
 
