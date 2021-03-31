@@ -1,21 +1,8 @@
 ---
 title: "KIN 610 | Final Project - Instructions"
 author: "Dr. Furtado"
-header-includes: \linespread{1.05}
-output:
-  html_document:
-    df_print: paged
-  word_document: default
-  pdf_document:
-    keep_tex: yes
-    fig_caption: yes
-    latex_engine: pdflatex
-    template: ../latex-assignment.tex
-geometry: margin=1in
-affiliation: Department of Kinesiology, Cal State Northridge
-email: ovandef@csun.edu
-fontfamily: mathpazo
-fontsize: 11pt
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "../docs/assignments") })
 ---
 
 ### Learning objectives

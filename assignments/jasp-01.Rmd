@@ -1,21 +1,11 @@
 ---
-title: "KIN 610 | JASP Assignment 1"
-author: "Dr. Furtado"
-header-includes: \linespread{1.05}
+title: "Teaching Stats with JASP | JASP Example 01"
+author: "Furtado Jr., Ovande"
 output:
   html_document:
     df_print: paged
-  word_document: default
-  pdf_document:
-    keep_tex: yes
-    fig_caption: yes
-    latex_engine: pdflatex
-    template: ../svm-latex-statement.tex
-geometry: margin=1in
-affiliation: Department of Kinesiology, Cal State Northridge
-email: ovandef@csun.edu
-fontfamily: mathpazo
-fontsize: 11pt
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "../docs/assignments") })
 ---
 
 ### Learning objectives
@@ -26,7 +16,12 @@ fontsize: 11pt
 4. Select and deselect cases in JASP
 5. Create and interpret histograms, boxplots, and Q-Q Plots
 
-### Dataset: download link will be available on Canvas
+### Dataset
+
+We will use a modified version of the NFL Combine data set (ref needed). The data set can be downloaded from this link: [https://osf.io/tbgfh/](https://osf.io/tbgfh/)
+
+Note that you will be required to apply/remove filters when completing some of the required analysis for this assignment^[Refer to this link for help: https://bit.ly/37RPncf].
+
 
 1.  Open the data set in JASP (Open > Computer)
 2.  Note the data set has 3 variables
