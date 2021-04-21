@@ -87,7 +87,7 @@ State the statistical procedure (i.e., ANOVA, Spearman rho) you selected to test
 
 Recall that the selection of the procedure will depend on several factors, including but not limited to, `1)` the nature of the dependent variable (continuous, discrete), `2)` the level (nominal, ordinal, scale), `3)` the number of DVs/IVs. In addition, because the sample you are using is not a `true random sample`, normality cannot be assumed by default. You must run the normality plots with tests for each dependent variable and report it appropriately.
 
-Note that you must chose a statistical model for each research hypothesis `(Ha)` formulated. For instance, if...
+Note that you must chose a statistical model for each research hypothesis `(Ha)` formulated.
 
 ------------------------------------------------------------------------
 
