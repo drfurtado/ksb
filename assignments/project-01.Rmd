@@ -54,6 +54,8 @@ This information should be placed under Appendix A. The information provided her
 
 You will be asked to search and find at least 3 articles related to your research question. These articles are to be used when writing the `Introduction` section of your report. Ensure to include these three sources under `References`.
 
+Once you find the articles, proceed to write a 2-page summary that will be part of the `Introduction` section of the final project. Note that you will need to turn in the 2-page summary.
+
 ### 2. Dependent and independent variable(s)
 
 Once you are given access to the research question and the data set, identify the Independent and Dependent variables that will be part of your analysis:
