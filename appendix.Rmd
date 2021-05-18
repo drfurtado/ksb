@@ -53,7 +53,6 @@ Example 1: [Instructions](assignments/descriptive-01.html)
 ## Projects
 
 * Example 1: [instructions](assignments/project-01.html)
-
 ----
 
 # Symbols and Equations {#symbols-equations}
@@ -167,4 +166,3 @@ where:
 - $\bar{x}$ is the sample mean.
 
 ----
-

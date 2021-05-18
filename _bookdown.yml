@@ -4,4 +4,4 @@ delete_merged_file: true
 language:
   ui:
     chapter_name: "Chapter "
-rmd_files: ["index.Rmd", "appendix.Rmd","06-references.Rmd"]
+rmd_files: ["index.Rmd", "appendix.Rmd", "07-reliability.Rmd", "06-references.Rmd"]
