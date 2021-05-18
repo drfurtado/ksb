@@ -155,7 +155,7 @@ Assume that you are specially interested in football players that play as `Defen
 
 Defensive players are known to be stronger than those playing on other positions. But how about if we compare defensive players among themselves from different positions?
 
-Are Defensive `Tackles (4)`, `Linebackers (10)`, and `Cornerbacks (2)` different when it comes to `bench press (pre)` scores?
+Are Defensive `Tacklers (4)`, `Linebackers (10)`, and `Cornerbacks (2)` different when it comes to `bench press (pre)` scores?
 
 > You will need to filter cases to perform this analysis so that only the values `4`, `10` and `2` are selected/checked for `position`.
 
@@ -215,9 +215,9 @@ As a Motor Behaviorist, you work for the NFL Scouting Combine and see the opport
 
 In 2020, you designed a program to help players improve their `speed`.
 
-`Quarterbacks (17)` from all attending colleges were selected to be part of the intervention. Test the hypothesis that the players would improve from pre to post-test on the `40-yard Shuttle`.
+`Quarterbacks (17)` from all attending colleges were selected to be part of the intervention. Test the hypothesis that the players would improve from pre to post-test on the `40-yard Dash`.
 
-> For this analysis, use the variables `40-yard Shuttle`, and filter cases so that only position `17` is selected/checked. Also, note that this study involves only players who were tested in `2020`.
+> For this analysis, use the variables `40-yard Dash`, and filter cases so that only position `17` is selected/checked. Also, note that this study involves only players who were tested in `2020`.
 
 ***Research Question #10***
 
@@ -225,9 +225,9 @@ As a Motor Behaviorist, you work for the NFL Scouting Combine and see the opport
 
 In `2020`, you designed a program to help players improve their `speed` scores.
 
-`Running Backs (18)` from all attending colleges were selected to be part of the intervention. Test the hypothesis that the players would improve from pre to post-test on the `40-yard Shuttle`.
+`Running Backs (18)` from all attending colleges were selected to be part of the intervention. Test the hypothesis that the players would improve from pre to post-test on the `40-yard Dash`.
 
-> For this analysis, use the variable `40-yard Shuttle`, and filter cases so that only position `18` is selected/checked. Also, note that this study involves only players who were tested in `2020`.
+> For this analysis, use the variable `40-yard Dash`, and filter cases so that only position `18` is selected/checked. Also, note that this study involves only players who were tested in `2020`.
 
 ***Research Question #11***
 
